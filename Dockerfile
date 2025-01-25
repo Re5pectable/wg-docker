@@ -8,4 +8,4 @@ RUN sysctl -p
 
 EXPOSE 51820/udp
 
-CMD ["wg-quick", "up", "wg0.conf"]
+CMD ["wg-quick", "up", "wg0"]
